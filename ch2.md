@@ -469,7 +469,7 @@ db.observations.mapReduce(function map() {
 
 ```json
 {
-  observationTimestamp: Date.parse(  "Mon, 25 Dec 1995 12:34:56 GMT"),
+  observationTimestamp: Date.parse("Mon, 25 Dec 1995 12:34:56 GMT"),
   family: "Sharks",
   species: "Carcharodon carcharias",
   numAnimals: 3
@@ -477,7 +477,7 @@ db.observations.mapReduce(function map() {
 {
   observationTimestamp: Date.parse("Tue, 12 Dec 1995 16:17:18 GMT"),
   family: "Sharks",
-  species:    "Carcharias taurus",
+  species: "Carcharias taurus",
   numAnimals: 4
 }
 ```
